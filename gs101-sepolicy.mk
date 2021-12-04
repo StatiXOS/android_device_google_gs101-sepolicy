@@ -27,6 +27,9 @@ BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/turbo_adapter
 #   Dauntless (uses Citadel policy currently)
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/citadel
 
+#   NN
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs101-sepolicy/neuralnetworks
+
 #   Wifi
 BOARD_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_ext
 
